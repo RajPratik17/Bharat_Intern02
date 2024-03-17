@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container weather-container">
+        <h1 class="text-primary">Weather App</h1>
+        <div class="weather-info">
+            <p id="location" class="lead"></p>
+            <p id="temperature" class="lead font-weight-bold text-danger"></p>
+            <p id="description" class="font-italic text-muted"></p>
+            <p id="humidity" class="font-weight-bold"></p>
+            <p id="wind-speed" class="font-weight-bold"></p>
+        </div>
+    </div>
+
+    <!-- Add Bootstrap JS and Popper.js (required for Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
